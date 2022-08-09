@@ -1,0 +1,67 @@
+Data Base:
+
+Memory
+To store the data in persistent storage device,so that it will remain availablea all time
+2 ways to store the data in persistent storage device
+
+	1.Stre it file in fix format file----Flat file.
+		a.Always read and write data in sequence ,random access to data is not possible.
+		b.To modify data , we ned to read data in memory line by line modify it and write the file or create new file.
+
+	2.Database
+		a.Types of Data Bases,
+			i.RDBMS-Relatinal Database Management System.
+				eg.Oracle,MySQL,PostreSQL,SQL derver.
+			ii.NOSQL-to nstructured data.
+				eg.ongoDB,CouchbaseDB,Cassandr
+			iii.GraphDB- To get the displa in graph Format.
+				eg.Neo4J
+			iv.MmDB-If we store the data in memory.	
+				eg.VoltDB,MEM-DB.
+
+**SQL-Structured Query language.
+
+RDBMS---Features/Significance or key steps:--- :)
+	a.Client server architecture
+	b.Secure--unless you have username and Password you canno access the data.
+	c.Easy to use.
+	d.RDBMS application can be used from programs Java,Python,PERL,PHP.
+	e.It is scalable.
+	f.It supports transaction control.-Most of financila application or where u need security and tracnsaction control then we use RDBMS.
+		eg.Transfer Fund--->Money gets withdrawn from source acc before it gets transferred fto destinatio acc then network goes
+		or connection time out.
+	g.Structured data- When data needs to be in some speified format only then we call this data a structured data.
+	h.It avoid redundancy-Duplcacy of data is easy-Managing data is easy.
+
+**NOSQL-NonStructured Quer Language.
+	a.Data is stored in unstructured manner--Data can be entered in any format,likepictures or text emoji.
+		Usually used in social media.
+	b.Less Secure as compared to RDBMS.
+	c.It is faser compared to RDBMS.
+	d.Scalable.
+
+**GraphDB
+	a.Show the data in graph format.
+	b.If you want to display it as a network.
+
+**MemDB-
+	a.When the size of data is small.
+	b.If you need faste access of data.
+		Example- in research project.
+
+__________-------------------------------------------**:**-------------------------------------------__________
+
+	MySQL
+	
+	Drawbacks
+	1.MySQL doesnot support intersectio operation,reference cursors,intead of trigger,statement level triggers.
+	2.in MSQL very large database are less efficient as compared to oracl. 
+
+	Stucture of Data
+	To store the data the way it is organised is called as data model
+		Different models-	Hierarchial Model(Obsolete),Network Model(Obsolete),Relational Model.
+
+	Why to use database:
+	>Data is stored in centralised server hence can be shared between application.
+	>Data stored in structured manner,in relation format so retrival of  data is easy.
+

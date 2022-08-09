@@ -1,0 +1,40 @@
+ls (list the content of the directory)
+ls -l  (long list)
+man (manual) - To see the manual of any command
+clear - To clear the terminal screen
+history - to show the history of the commands
+
+date - to see the date & time of the system
+
+echo - dispaly a line of text
+
+ echo "hello" > hello.txt
+
+ echo "Second Line" >> hello.txt
+
+cat - to display the content of the file (
+Creating a file..!!
+
+cat hello.txt
+
+
+who -> who is logged in
+whoami -> 
+
+mkdir -> to make directory
+
+
+pwd -> present working directory
+
+
+cd -> change the directory
+
+cd --help -> to get the help
+
+cp -> to copy the file
+
+rm -> to remove the file/directory
+
+rmdir -> to remove the directory
+
+rm -R -> delete directory recursively
